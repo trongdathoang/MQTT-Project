@@ -6,12 +6,11 @@ import json
 broker = 'rule28.i4t.swin.edu.au'
 user_information = {
     "client_identifier": "Publisher",
-    "username": "103819212",
-    "password": "103819212"
+
 }
 will_turn_on = False
 
-topic = [("public/#", 0), ("public/103819212/fan/control", 0)]
+topic = [("public/#", 0), ("public/104194774/fan/control", 0)]
 publish_topic = "public/103819212/fan/status"
 
 
