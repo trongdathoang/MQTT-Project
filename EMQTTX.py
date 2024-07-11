@@ -9,7 +9,7 @@ class SimonMQTTGui(tk.Tk):
     def __init__(self):
         super().__init__()
 
-        self.title("Simon EMQTTX")
+        self.title("EMQTTX")
         self.geometry("430x870")
         self.publish_topics = []
         self.default_sub_topic = [("public/#", 0)]
@@ -256,5 +256,5 @@ class SimonMQTTGui(tk.Tk):
 
 
 if __name__ == "__main__":
-    app = SimonMQTTGui()
+    app = MQTTGui()
     app.mainloop()
